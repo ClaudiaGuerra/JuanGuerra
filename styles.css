@@ -31,7 +31,7 @@ body {
 .background {
     /* background-image: url("src/images/background2.png");
     background-repeat: repeat; */
-    background: #f3e8ff;
+    background: #04142C;
     opacity: 1;
     z-index: 0;
     max-width: none;
@@ -39,8 +39,7 @@ body {
 
 /* ----------------- NAV BAR ----------------*/
 .navbar {
-    background-color: #e9defa;
-    ;
+    background-color: #04142C;
     overflow: hidden;
     position: fixed;
     /* Set the navbar to fixed position */
@@ -56,6 +55,11 @@ body {
     transition: top 0.3s;
 }
 
+.navbar .nav-link {
+  color: #C1BCA3; /* Texto claro */
+}
+
+
 /* .custombar {
     --bs-dropdown-link-active-bg: rgb(171, 56, 209);
 } */
@@ -69,8 +73,6 @@ body {
     z-index: 100;
     border-radius: 15px;
     justify-content: center;
-    background-image: url("src/images/background3.png");
-    background-repeat: repeat;
     z-index: 1;
     margin-bottom: 20px;
 }
@@ -90,8 +92,8 @@ body {
 }
 
 .info .texto {
-    border: 3px solid rgba(116, 57, 136, 0.5);
-    background-color: #e9defa;
+    border: 5px solid #C1BCA3;
+    background-color: #04142C;
     border-radius: 10px;
     border-radius: 3px;
     display: inline-block;
@@ -112,11 +114,13 @@ body {
     margin-bottom: 100;
     font-size: 50px;
     line-height: 50px;
+    color: #C1BCA3;
 }
 
 .info .texto .profesion {
     font-size: 25px;
     line-height: 25px;
+     color: #C1BCA3;
 
 }
 
@@ -133,7 +137,7 @@ body {
 .foto img {
     border-radius: 50%;
     height: 250px;
-    border: 5px solid #a189c9;
+    border: 5px solid #C1BCA3;
     z-index: -1;
 }
 
