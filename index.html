@@ -8,7 +8,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
-  <link rel="icon" href="src/icon/worker_7563560.svg" type="image/icon type">
+  <link rel="icon" href="src/icon/fireworks.ico" type="image/icon type">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <title>Juan Guerra</title>
@@ -16,13 +16,9 @@
 
 <body>
   <nav class="navbar navbar-expand-lg">
-    <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary"> -->
-    <!-- <img src="src/icon/AvatarMaker(1).svg"> -->
     <div class="container-fluid">
-
-      <!-- <img src="src/icon/AvatarMaker(1).svg"> -->
-      <a style="color: #C1BCA3;" class="navbar-brand" href="#about">
-        <img src="src/icon/worker_7563560.svg" alt="Juan Guerra logo">
+      <a style="color: #C1BCA3;" class="navbar-brand" href="#sobre_mi">
+        <img src="src/icon/fireworks.svg" alt="Juan Guerra logo">
         Juan Guerra
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
@@ -33,23 +29,23 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#about">Sobre mí</a>
+            <a class="nav-link" aria-current="page" href="#sobre_mi">Sobre mí</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#skills">Habilidades</a>
+            <a class="nav-link" href="#habilidades">Habilidades</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#experience">Experiencia</a>
+            <a class="nav-link" href="#experiencia">Experiencia</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#education">Formación</a>
+            <a class="nav-link" href="#formacion">Formación</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#certifications">Certificaciones</a>
+            <a class="nav-link" href="#certificaciones">Certificaciones</a>
           </li>
 
           <!-- <li class="nav-item">
@@ -57,7 +53,7 @@
           </li> -->
 
           <li class="nav-item">
-            <a class="nav-link" href="#contact">Contacto</a>
+            <a class="nav-link" href="#contacto">Contacto</a>
           </li>
 
         </ul>
@@ -72,7 +68,7 @@
 
 
       <!-- Photo container -->
-      <div class="about" data-aos="fade-down" data-aos-duration="3000" id="about">
+      <div class="about" data-aos="fade-down" data-aos-duration="3000" id="sobre_mi">
         <div class="info">
           <div class="texto">
             <h1 class="nombre">Juan Guerra</h1>
@@ -87,7 +83,7 @@
       </div>
 
       <!-- About container -->
-      <div id="about">
+      <div id="sobre_mi">
         <div class="titles about" data-aos="zoom-in" data-aos-duration="1500">
           <h3>Sobre mí</h3>
           <p>
@@ -99,7 +95,7 @@
       </div>
 
       <!-- Skills container -->
-      <div id="skills">
+      <div id="habilidades">
         <div class="titles" data-aos="fade-up" data-aos-duration="800">
           <h3>Habilidades</h3>
           <div class="row"><br></div>
@@ -194,7 +190,7 @@
 
 
       <!-- Experience container -->
-      <div id="experience">
+      <div id="experiencia">
         <div class="titles" data-aos="fade-up" data-aos-duration="800">
           <h3>Experiencia </h3>
           <div class="accordion" id="">
@@ -242,22 +238,17 @@
               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                 data-bs-parent="#accordionExample">
                 <div class="accordion-body job">
-                     <h4>Proyectos</h4>
-                    <ul>
-                      <li><strong>Jalisco Talent Land</strong> Evento líder en innovación, tecnología y emprendimiento
-                        en Latinoamérica</li>
-                    </ul>
-                    <h5>Responsabilidades</h5>
-                    <ul>
-                      <li>Supervisión de logística, proveedores y montaje</li>
-                      <li>Coordinación de atracciones, seguridad y flujos de visitantes</li>
-                    </ul>
+                  <h4>Proyectos</h4>
+                  <ul>
+                    <li><strong>Jalisco Talent Land</strong> Evento líder en innovación, tecnología y emprendimiento
+                      en Latinoamérica</li>
+                  </ul>
+                  <h5>Responsabilidades</h5>
+                  <ul>
+                    <li>Supervisión de logística, proveedores y montaje</li>
+                    <li>Coordinación de atracciones, seguridad y flujos de visitantes</li>
+                  </ul>
                 </div>
-
-                     
-                  
-
-
               </div>
             </div>
 
@@ -296,7 +287,7 @@
       </div>
 
       <!-- Education -->
-      <div id="education">
+      <div id="formacion">
         <div class="titles" data-aos="fade-up" data-aos-duration="800">
           <h3>Formación</h3>
           <div class="row ed ">
@@ -310,7 +301,7 @@
       </div>
 
       <!-- Certifications container -->
-      <div id="certifications">
+      <div id="certificaciones">
 
         <div class="titles" data-aos="fade-up" data-aos-duration="800">
           <h3>Certificaciones</h3>
@@ -338,7 +329,7 @@
 
 
 <footer>
-  <h4>Contacto</h4>
+  <h4 id="contacto">Contacto</h4>
   <div class="footer">
     <div class="ft">
       <a href="https://www.linkedin.com/in/juan-guerra-hernandez/" target="_blank"><img src="src/icon/linkedin.png"></a>
